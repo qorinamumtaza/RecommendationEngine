@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Prediksi Keberhasilan Musik</title>
+		<link rel="stylesheet" href="static/css/bootstrap.min.css">
+		<script src="static/js/jquery.min.js" type="text/javascript"></script>
+		<script src="static/js/popper.min.js" type="text/javascript"></script>
+		<script src="static/js/bootstrap.min.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="static/css/font-awesome.css">
+	</head>
+	<body>
+		<br/><br/>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="card">
+						<div class="card-body">
+							{% include 'nav.html' %}
+							<br/>
+							
+							<br/>
+							<p>
+								<b>Hasil</b>: {{hasiltext}}<br>
+								<b>Probabilitas class tidak populer</b>: {{p0}}<br/>
+								<b>Probabilitas class populer</b>: {{p1}}<br/>
+							</p>
+							
+						</div>
+					</div>
+					<br/>
+					<br/>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
